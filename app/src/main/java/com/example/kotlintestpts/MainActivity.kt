@@ -17,12 +17,11 @@ class MainActivity : AppCompatActivity() {
 //        btn.setOnClickListener {  }
 
         buttonOnclickme.setOnClickListener {
-            val name = editTextName.text
+            val name = editTextName.textStrong knowledge in Manual testing
 
             val message = "Hello $name";
-
+// mention toast for message
            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-
         }
 
 
